@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px, 0;
+}
+
+.logo {
+  width: 100px;
+}
+.cadastro {
+  max-width: 100%;
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 30px 20px;
+  margin: 50px;
+}
+.cadastro form input {
+  max-width: 100%;
+  width: 350px;
+  height: 30px;
+  margin: 7px 0;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.cadastro form button {
+  background-color: #0095f6;
+  color: #fff;
+  padding: 7px 10px;
+  margin: 20px 0px;
+  width: 100%;
+  border: none;
+}
+.termos {
+  text-align: center;
+  font-size: smaller;
+}
+.cta-login {
+  text-align: center;
+  font-size: small;
+  border: 1px solid #ccc;
+  padding: 7px 10px;
+}
+.banner img {
+  width: 300px;
+}
