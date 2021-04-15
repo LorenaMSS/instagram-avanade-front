@@ -46,3 +46,6 @@ main {
   width: 100%;
   border: none;
 }
+.banner img {
+  width: 300px;
+}
